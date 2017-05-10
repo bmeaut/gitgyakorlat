@@ -6,7 +6,7 @@
         {
             if (value < 2)
                 return false;
-            for (int i = 2; i < value; i++)
+            for (int i = 2; i < value/2; i++)
                 if (value % i == 0)
                     return false;
             return true;
@@ -19,7 +19,7 @@
 
         static public int Sub(int a, int b)
         {
-            return 0;
+            return a - b;
         }
 
         static public int Mul(int a, int b)
