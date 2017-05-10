@@ -1,0 +1,7 @@
+Application/bin/*
+Application/obj/*
+.vs/GitMergeTraining/v14/.suo
+Common/bin/*
+Common/obj/*
+Tests/bin/*
+Tests/obj/*
