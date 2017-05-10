@@ -7,6 +7,8 @@ namespace Application
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Szia! Ez itt a mini alkalmazás, ami használja");
+            Console.WriteLine("a Common class library szolgáltatásait.");
             Console.WriteLine(GetIsPrimeText(7));
             Console.WriteLine(GetIsPrimeText(9));
             Console.WriteLine(string.Format("3+2={0}", Operations.Add(3, 2)));
